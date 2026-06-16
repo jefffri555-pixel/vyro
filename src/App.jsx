@@ -1,11 +1,14 @@
-import { useEffect } from "react";
-
 function App() {
-  useEffect(() => {
-    window.location.href = "/vyro.html";
-  }, []);
-
-  return null;
+  return (
+    <iframe
+      src="/vyro.html"
+      style={{
+        width: "100%",
+        height: "100vh",
+        border: "none",
+      }}
+    />
+  );
 }
 
 export default App;
