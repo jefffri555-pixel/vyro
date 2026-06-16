@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    window.location.href = "/index.html";
+    window.location.href = "/vyro.html";
   }, []);
 
   return null;
